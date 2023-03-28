@@ -1,0 +1,76 @@
+/*Heading*/
+
+.heading {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#blue {
+    color: blue;
+}
+#brown {
+    color: brown;
+}
+#white {
+    color: purple;
+}
+#green {
+    color: green;
+}
+#red {
+    color: red;
+}
+
+/*Footer*/
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+/*buttons*/
+
+button {
+    padding: 15px 32px;
+   
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+#rock-button {
+    background: brown;
+    color: white;
+}
+
+#paper-button {
+    background: purple;
+    color: white;
+}
+
+#scissors-button {
+    background: red;
+    color: white;
+}
+
+#lizard-button {
+     background: green;
+     color: white;
+}
+
+#spock-button {
+    background: blue;
+    color: white;
+}
+
+#button-heading {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#controls-area {
+    text-align: center;
+}

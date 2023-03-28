@@ -11,10 +11,11 @@
 </head>
 <body>
     <h1 class="heading">
-      Rock Paper Scissors Lizard Spock
+      <span id="brown">Rock</span>, <span id="white">Paper</span>, <span id="red">Scissors</span>, <span id="green">Lizard</span>, <span id="blue">Spock</span>
     </h1>
-    <div class="game-area">
-        <div class="controls-area">
+    <div id="game-area">
+        <div id="controls-area">
+            <h2 id="button-heading">Make your choice!</h2>
             <button id="rock-button" data-type="rock">Rock</button>
             <button id="paper-button"  data-type="paper">Paper</button>
             <button id="scissors-button"  data-type="scissors">Scissors</button>
@@ -26,6 +27,20 @@
         <p class="scores" id="player-score">Player Score</p>
         <p class="scores" id="computer-score">Computer Score</p>
     </div>
+
+    <footer>
+        Rules
+        <p>Scissors cuts Paper |
+            Paper covers Rock |
+            Rock crushes Lizard |
+            Lizard poisons Spock |
+            Spock smashes Scissors |
+            Scissors decapitates Lizard |
+            Lizard eats Paper |
+            Paper disproves Spock |
+            Spock vaporizes Rock |
+            Rock crushes Scissors</p>
+    </footer>
 
     <script src="assets/js/script.js"></script>
 </body>
