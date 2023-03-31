@@ -78,16 +78,16 @@ button {
 
 /** game area */
 
-.rpsls-image {
+#computer-image, #player-image {
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
-    height: 10%;
 }
 #images{
    text-align:center;
 }
+
 
 
 .scores, #result {
@@ -123,13 +123,14 @@ button {
 }
 
 @media screen and (max-width: 320px) {
-     .rpsls-image {
-        width: 60%;
-        
+     #computer-image, #player-image {
+        height: 150px;
+        width: auto;
     }
     #player-score {
         margin-right: 0px;
     }
+    
 }
 
 
