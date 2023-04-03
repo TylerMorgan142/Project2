@@ -115,12 +115,15 @@ button {
 
 /* Media queries */
 
+/* For screens size 1280px */
 
 @media screen and (max-width: 1280px) {
     footer {
         position:relative;
     }
 }
+
+/* For screens size 320px */
 
 @media screen and (max-width: 320px) {
      #computer-image, #player-image {
