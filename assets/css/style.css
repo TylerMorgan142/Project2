@@ -83,6 +83,7 @@ button {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
+    width: auto;
 }
 #images{
    text-align:center;
@@ -128,7 +129,7 @@ button {
 @media screen and (max-width: 320px) {
      #computer-image, #player-image {
         height: 150px;
-        width: auto;
+        
     }
     #player-score {
         margin-right: 0px;
