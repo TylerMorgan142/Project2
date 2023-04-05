@@ -1,23 +1,25 @@
 # Rock, Paper, Scissors, Lizard, Spock
 Rock, Paper, Scissors, Lizard, Spock is a site that allows users to play a fully responsive game of the same name. The game is played against the computer, the player chooses one of the options and the computer makes its own choice and a winner is decided.
 
-![Screenshot of amiresponsive.io]
+![Screenshot of amiresponsive.io](assets/images/amiresponsive.png)
 
 ## Features
 
 ### Existing Features
 
 #### Heading
-![Screenshot of site title]
+![Screenshot of site title](assets/images/rpslstitle.png)
 The heading displayed at the top of the page stands out and immediately lets the user know the game they are playing.
 
 #### Game Area
-![Screenshot of game area]
+![Screenshot of game area](assets/images/gamearea1.png)
+![Screenshot of game area](assets/images/gamearea2.png)
 This section allows the user to make their choice of either rock, paper, scissors, lizard or spock. This achieved by clicking on one of the buttons representing each choice.
 It also includes a diagram showing all of the matchups and who wins them.
+The diagram changes to individual images of the player and computers choice.
 
 #### Score Area
-![Screenshot of score area]
+![Screenshot of score area](assets/images/scorearea.png)
 This section shows the player the scores of themselves and the computer, allowing them to keep track of how many games they have won or lost.
 
 #### Rules
