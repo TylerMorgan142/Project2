@@ -140,7 +140,12 @@ button {
     }
     #player-score {
         margin-right: 0px;
+       
     }
+    .scores {
+        font-size: 18px;
+    }
+    
     
 }
 
