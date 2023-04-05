@@ -57,3 +57,11 @@ Once the master branch has been selected, the page will be automatically refresh
 
 The live link can be found here - https://github.com/TylerMorgan142/Rock-Paper-Scissors-Lizard-Spock/settings/pages
 
+## Credits
+
+### Content
+
+The text for the rules in the footer was taken from https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock
+
+### Media
+The images used are taken from https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock
