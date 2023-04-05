@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
         button.addEventListener("click", function() {
             let playerChoice = this.getAttribute ("data-type");
             runGame(playerChoice);
-        })
+        });
     }
-})
+});
 
 /**
  * Determines the players choice of rock, paper, scissors, lizard or spock
@@ -25,9 +25,9 @@ function runGame(playerChoice) {
     } else if (playerChoice === "scissors") {
         playScissors();
     } else if (playerChoice === "lizard") {
-        playLizard()
+        playLizard();
     } else if (playerChoice === "spock") {
-        playSpock()
+        playSpock();
     } else {
         alert(`Unknown player choice ${playerChoice}`);
         throw `Unkown player choice ${playerChoice}. Aborting!`;
@@ -42,26 +42,26 @@ function runGame(playerChoice) {
  */
 
 function playRock() {
-    document.getElementById("player-image").src = "assets/images/rock.png"
-    let getcomputerChoice = Math.floor(Math.random()* 5) +1
+    document.getElementById("player-image").src = "assets/images/rock.png";
+    let getcomputerChoice = Math.floor(Math.random()* 5) +1;
     if (getcomputerChoice === 1) {
      document.getElementById("computer-image").src="assets/images/rock.png";
-     document.getElementById("result").innerText = "Computer chose rock. Draw! Nobody wins."
+     document.getElementById("result").innerText = "Computer chose rock. Draw! Nobody wins.";
     } else if (getcomputerChoice === 2) {
         document.getElementById("computer-image").src="assets/images/paper.png" ;
-        document.getElementById("result").innerText="Computer chose paper. Paper covers rock. You lose :("
+        document.getElementById("result").innerText="Computer chose paper. Paper covers rock. You lose :(";
         incrementComputerScore();
        } else if (getcomputerChoice === 3) {
         document.getElementById("computer-image").src="assets/images/scissors.png" ;
-        document.getElementById("result").innerText="Computer chose scissors. Rock smashes scissors. You win!"
+        document.getElementById("result").innerText="Computer chose scissors. Rock smashes scissors. You win!";
         incrementPlayerScore();
        } else if (getcomputerChoice === 4) {
         document.getElementById("computer-image").src="assets/images/lizard.png" ;
-        document.getElementById("result").innerText="Computer chose lizard. Rock smashes lizard. You Win!"
+        document.getElementById("result").innerText="Computer chose lizard. Rock smashes lizard. You Win!";
         incrementPlayerScore();
        } else if (getcomputerChoice === 5) {
         document.getElementById("computer-image").src="assets/images/spock.png" ;
-        document.getElementById("result").innerText="Computer chose spock. Spock vaporises rock. You lose :("
+        document.getElementById("result").innerText="Computer chose spock. Spock vaporises rock. You lose :(";
         incrementComputerScore();
        } 
 }
@@ -74,11 +74,11 @@ function playRock() {
  */
 
 function playPaper() {
-    document.getElementById("player-image").src = "assets/images/paper.png"
-    let getcomputerChoice = Math.floor(Math.random()* 5) +1
+    document.getElementById("player-image").src = "assets/images/paper.png";
+    let getcomputerChoice = Math.floor(Math.random()* 5) +1;
     if (getcomputerChoice === 1) {
      document.getElementById("computer-image").src="assets/images/rock.png";
-     document.getElementById("result").innerText = "Computer chose rock. Paper covers rock. You win!."
+     document.getElementById("result").innerText = "Computer chose rock. Paper covers rock. You win!.";
      incrementPlayerScore();
     } else if (getcomputerChoice === 2) {
         document.getElementById("computer-image").src="assets/images/paper.png" ;
@@ -106,8 +106,8 @@ function playPaper() {
  */
 
 function playScissors() {
-    document.getElementById("player-image").src = "assets/images/scissors.png"
-    let getcomputerChoice = Math.floor(Math.random()* 5) +1
+    document.getElementById("player-image").src = "assets/images/scissors.png";
+    let getcomputerChoice = Math.floor(Math.random()* 5) +1;
     if (getcomputerChoice === 1) {
      document.getElementById("computer-image").src="assets/images/rock.png";
      document.getElementById("result").innerText = "Computer chose rock. Rock smashes scissors. You lose :(";
@@ -138,11 +138,11 @@ function playScissors() {
  */
 
 function playLizard(){
-    document.getElementById("player-image").src = "assets/images/lizard.png"
-    let getcomputerChoice = Math.floor(Math.random()* 5) +1
+    document.getElementById("player-image").src = "assets/images/lizard.png";
+    let getcomputerChoice = Math.floor(Math.random()* 5) +1;
     if (getcomputerChoice === 1) {
      document.getElementById("computer-image").src="assets/images/rock.png";
-     document.getElementById("result").innerText = "Computer chose rock. Rock crushes lizard. You lose :("
+     document.getElementById("result").innerText = "Computer chose rock. Rock crushes lizard. You lose :(";
      incrementComputerScore();
     } else if (getcomputerChoice === 2) {
         document.getElementById("computer-image").src="assets/images/paper.png" ;
@@ -170,8 +170,8 @@ function playLizard(){
  */
 
 function playSpock(){
-    document.getElementById("player-image").src = "assets/images/spock.png"
-    let getcomputerChoice = Math.floor(Math.random()* 5) +1
+    document.getElementById("player-image").src = "assets/images/spock.png";
+    let getcomputerChoice = Math.floor(Math.random()* 5) +1;
     if (getcomputerChoice === 1) {
      document.getElementById("computer-image").src="assets/images/rock.png";
      document.getElementById("result").innerText = "Computer chose rock. Spock vaporises rock. You win!";
