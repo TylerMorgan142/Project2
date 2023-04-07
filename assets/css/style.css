@@ -4,20 +4,35 @@
     font-family: Arial, sans-serif;
     text-align: center;
 }
+
+ /** text-shadow property copied from https://stackoverflow.com/questions/2570972/css-font-border **/
+
 #blue {
     color: blue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
-#brown {
-    color: brown;
-}
-#white {
+
+#purple {
     color: purple;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
+
+#yellow {
+    color: yellow;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
 #green {
     color: green;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 #red {
     color: red;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /*Footer*/
@@ -41,23 +56,23 @@ button {
 }
 
 #rock-button {
-    background: brown;
+    background: red;
     color: white;
 }
 
 #paper-button {
-    background: purple;
-    color: white;
+    background: yellow;
+    color: black;
 }
 
 #scissors-button {
-    background: red;
+    background: purple;
     color: white;
 }
 
 #lizard-button {
      background: green;
-     color: white;
+     color: black;
 }
 
 #spock-button {
